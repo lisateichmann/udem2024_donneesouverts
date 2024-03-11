@@ -2,9 +2,6 @@ Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 # HNU6055 Donnees Ouverts (Hiver 2024)
 
 Il s'agit du dépôt officiel des supports de cours, des diapositives et des mini-exercices. 
-Veuillez consulter le site web du cours pour toutes les informations pertinentes :
-
-https://lisateichmann.github.io/udem2024_donneesouverts/
 
 # Dossiers
 
