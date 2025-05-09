@@ -66,14 +66,11 @@ actes_criminel[]
 ## Créer un sous-ensemble aléatoire de la table des données avec sample_n()
 actes_100_geo <- sample_n(actes_criminel, 100)
 
-### Option 1: Créer une carte de chaleur ("heatmap")
-
-install.packages("leaflet.extras")
-library(leaflet.extras)
+### Option 1: Créer une carte de marqeur
 
 leaflet(actes_100_geo) %>% ## utiliser leaflet
   addTiles() %>% ## ajouter une carte de base
-  addHeatmap(lng = actes_100_geo$LONGITUDE, lat = actes_100_geo$LATITUDE, blur = 40, max = 0.05, radius = 15) %>% 
+  addMarkers(lng = actes_100_geo$LONGITUDE, lat = actes_100_geo$LATITUDE) %>% 
   setView(lng = -73.569806, lat = 45.5031824, zoom = 9) ##zoom sur l'île de Montréal
 
 ## Option 2: Utiliser les marqueurs ronds ("circlemarkers")
@@ -81,7 +78,7 @@ leaflet(actes_100_geo) %>% ## utiliser leaflet
 leaflet() %>%
   addTiles() %>% 
   addCircleMarkers(data = actes_100_geo, ##ajouter les marqueurs ronds
-                   popup=~addr) ##ajouter un popup de l'adresse
+                   popup=actes_100_geo$CATEGORIE) ##ajouter un popup de l'adresse
 
 ## Option 3: Personnaliser les marqueurs ("markers")
 markers <- makeAwesomeIcon(
