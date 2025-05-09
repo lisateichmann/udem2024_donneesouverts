@@ -35,7 +35,6 @@ comprend des tableaux de fréquence et des données d'entrée pour générer les
 
 # Licence
 
-All material created by Lisa Teichmann.
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
