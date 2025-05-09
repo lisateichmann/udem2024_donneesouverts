@@ -2,11 +2,7 @@
 Cet atelier partira d’un cas particulier, la représentation spatiale de crimes sur le territoire montréalais. On verra comment importer un jeu de données depuis le site de Données Québec, puis on utilisera les extensions tidygeocoder et leaflet for R pour projeter ces données sur une carte de la Ville de Montréal.
 
 ## Source de donnees:
-Actes criminels
-Liste des actes criminels enregistrés par le Service de police de la Ville de Montréal (SPVM).
-Service de police de la Ville de Montréal - Division des ressources informationnelles, Attribution (CC-BY 4.0)
-
-https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels#
+VILLE DE MONTRÉAL. Actes criminels, [Jeu de données], dans Données Québec, 2016, mis à jour le 08 mai 2025. [https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels], (consulté le 09 mai 2025).Attribution (CC-BY 4.0)
 
 Date d'extraction : 9 mai 2025
 
