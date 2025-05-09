@@ -8,6 +8,8 @@ Service de police de la Ville de Montréal - Division des ressources information
 
 https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels#
 
+Date d'extraction : 9 mai 2025
+
 # Prétraitement des données
 
 Par exemple, les valeurs manquantes, etc. ont été supprimées.
@@ -30,3 +32,10 @@ inclut les figures générés.
 
 ## Resultats
 comprend des tableaux de fréquence et des données d'entrée pour générer les chiffres.
+
+# Licence
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
